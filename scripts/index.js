@@ -12,8 +12,8 @@ class Pessoa {
 
     
     apresentar = () => {
-        console.log('Olá, meu nome é ${this.nome} ${this.sobrenome}. Eu tenho ${this.idade} anos. Minha cor é ${this.cor}')
-        console.log('Meu cabelo é ${this.cabelo}. A cor dos meus olhos são ${this.olhos}. Meu estado civil é ${this.estadocivil.')
+        console.log(`Olá, meu nome é ${this.nome} ${this.sobrenome}. Eu tenho ${this.idade} anos. Minha cor é ${this.cor}`)
+     
        
     }
 
@@ -23,5 +23,4 @@ class Pessoa {
     
 
     pessoa1.apresentar()
-
 
